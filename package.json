@@ -1,0 +1,15 @@
+{
+  "name": "scorm12-packager",
+  "version": "0.1.0",
+  "description": "Offline SCORM 1.2 course packager with ZIP export",
+  "type": "module",
+  "main": "src/index.ts",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "node scripts/build-check.mjs",
+    "test": "node --test"
+  },
+  "license": "MIT"
+}
