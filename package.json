@@ -1,0 +1,15 @@
+{
+  "name": "call-ownership",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-process call ownership component with async handoff confirmation",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "test": "npm run build:test && node --test \"dist-test/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "24.12.2",
+    "typescript": "5.8.2"
+  }
+}
