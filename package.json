@@ -1,0 +1,15 @@
+{
+  "name": "doc-field-extractor",
+  "version": "0.1.0",
+  "description": "In-memory document field extraction with Unicode-normalized matching and traceable original-text evidence spans.",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
