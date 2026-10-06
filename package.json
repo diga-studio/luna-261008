@@ -1,0 +1,18 @@
+{
+  "name": "recommendation-letter-vault",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Scholarship recommendation letter intake library (SQLite metadata + local PDF storage)",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "25.9.9",
+    "typescript": "5.9.3"
+  }
+}
