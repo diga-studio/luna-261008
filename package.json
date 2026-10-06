@@ -1,0 +1,19 @@
+{
+  "name": "dd-engagement-stats",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Due-diligence document engagement statistics library (SQLite-backed)",
+  "type": "module",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --disable-warning=ExperimentalWarning --test 'dist/test/*.test.js'"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.4",
+    "typescript": "5.9.3"
+  }
+}
