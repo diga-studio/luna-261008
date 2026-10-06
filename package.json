@@ -1,0 +1,19 @@
+{
+  "name": "guestconnect-merge-store",
+  "version": "0.1.0",
+  "private": true,
+  "description": "GuestConnect offline session merge and version rollback library backed by SQLite",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.8.3"
+  }
+}
