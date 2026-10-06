@@ -1,0 +1,16 @@
+{
+  "name": "log-alert-analyzer",
+  "version": "0.1.0",
+  "private": true,
+  "description": "In-memory log error-rate alert interval analysis library",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && NODE_OPTIONS=--max-old-space-size=512 node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.4",
+    "typescript": "5.9.3"
+  }
+}
