@@ -1,0 +1,20 @@
+{
+  "name": "training-loadcurve",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Offline training correction and load-curve library with SQLite persistence",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --no-warnings --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=23.4.0"
+  },
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts"
+}
