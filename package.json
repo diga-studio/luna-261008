@@ -1,0 +1,16 @@
+{
+  "name": "purchase-reconciliation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "采购三方核销库（订单/收货/发票/核销，SQLite 持久化）",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
