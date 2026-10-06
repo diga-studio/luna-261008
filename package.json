@@ -1,0 +1,19 @@
+{
+  "name": "ad-revision-store",
+  "version": "1.0.0",
+  "description": "广告项目修订提交库：创建项目、提交修改、查看当前内容与修订历史，SQLite 持久化",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node --test \"dist-test/test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.0"
+  }
+}
