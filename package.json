@@ -1,0 +1,14 @@
+{
+  "name": "order-inventory-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "订单拆并与库存预留库，供上层 OMS 调用，本地 SQLite 持久化",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
