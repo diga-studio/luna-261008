@@ -1,0 +1,17 @@
+{
+  "name": "doc-workflow-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "description": "In-memory document workflow runtime library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "25.6.0",
+    "typescript": "5.9.3",
+    "vitest": "3.2.4"
+  }
+}
