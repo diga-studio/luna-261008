@@ -1,0 +1,16 @@
+{
+  "name": "costlens-billing-import",
+  "version": "0.1.0",
+  "private": true,
+  "description": "CostLens streaming billing import library backed by local SQLite",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "pretest": "npm run build",
+    "test": "node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
