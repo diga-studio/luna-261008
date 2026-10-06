@@ -1,0 +1,10 @@
+export declare function utf8(text: string): Uint8Array;
+export declare function ascii(text: string): Uint8Array;
+export declare function mail(lines: string[]): Uint8Array;
+export declare function concat(...parts: Uint8Array[]): Uint8Array;
+export declare function base64Encode(bytes: Uint8Array): string;
+export declare function quotedPrintableEncode(bytes: Uint8Array): string;
+export declare function assertTrue(condition: boolean, message: string): void;
+export declare function assertEqual<T>(actual: T, expected: T, message: string): void;
+export declare function assertSetEqual(actual: string[], expected: string[], message: string): void;
+export declare function assertThrows(fn: () => void, message: string): void;

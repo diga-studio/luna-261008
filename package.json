@@ -1,0 +1,13 @@
+{
+  "name": "phishguard-mime-scanner",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PhishGuard streaming MIME threat scanner",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node dist/tests/run.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
