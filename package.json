@@ -1,0 +1,19 @@
+{
+  "name": "forensic-timeline",
+  "version": "0.1.0",
+  "description": "Local forensic timeline library with SQLite persistence and snapshot pagination",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --experimental-sqlite --disable-warning=ExperimentalWarning --test dist/test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^24.0.0"
+  }
+}
