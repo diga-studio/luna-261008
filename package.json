@@ -1,0 +1,16 @@
+{
+  "name": "talentbridge",
+  "version": "0.1.0",
+  "description": "Offline bidirectional job/candidate matching library",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node --test build-test/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0",
+    "@types/node": "^26.0.0"
+  }
+}
