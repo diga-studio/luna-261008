@@ -1,0 +1,16 @@
+{
+  "name": "signaldeck-playback-timeline",
+  "version": "0.1.0",
+  "private": true,
+  "description": "SignalDeck shift playback timeline library",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  }
+}
