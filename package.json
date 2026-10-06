@@ -1,0 +1,16 @@
+{
+  "name": "subtitle-align",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Global timing adjustment for a subtitle track (in-memory, optimal cost)",
+  "license": "UNLICENSED",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --expose-gc --test"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.2"
+  }
+}
