@@ -1,0 +1,13 @@
+{
+  "name": "skillpulse-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "node --check src/types.ts && node --check src/scheduler.ts && node --check test/scheduler.test.ts",
+    "test": "node --test \"test/**/*.test.ts\""
+  }
+}
