@@ -1,0 +1,15 @@
+{
+  "name": "cart-offer-quote",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "In-memory restaurant cart promotion quote library",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
