@@ -1,0 +1,16 @@
+{
+  "name": "commission-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-memory incremental tiered commission engine for Q1 2026",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "test": "npm run build && npm run build:test && node --test dist-test/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
