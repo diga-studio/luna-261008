@@ -1,0 +1,14 @@
+{
+  "name": "netfabric-key-rotation",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Dual-end key rotation library (NetFabric-style) with per-endpoint persistent state",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node dist/test/run.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
