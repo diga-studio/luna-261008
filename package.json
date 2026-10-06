@@ -1,0 +1,14 @@
+{
+  "name": "call-ownership",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-process call ownership component with idempotent write operations",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
