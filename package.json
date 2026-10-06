@@ -1,0 +1,16 @@
+{
+  "name": "inventory-reconciliation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "工业设备盘点对账库：账册、盘点任务与调整单持久化到本地 SQLite",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.1",
+    "typescript": "^5.9.2"
+  }
+}
