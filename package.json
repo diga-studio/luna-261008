@@ -1,0 +1,16 @@
+{
+  "name": "leadpulse",
+  "version": "1.0.0",
+  "private": true,
+  "description": "LeadPulse 时效评分库：进程内存中的线索评分与行为归因",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node dist/test/run-tests.js",
+    "bench": "npm run build && node --expose-gc dist/perf/benchmark.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}
