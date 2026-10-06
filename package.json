@@ -1,0 +1,16 @@
+{
+  "name": "skillpulse-scheduler",
+  "version": "0.1.0",
+  "description": "SkillPulse schedule conflict engine (in-memory, serial)",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && node --test \"build-test/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^26.6.4"
+  }
+}
