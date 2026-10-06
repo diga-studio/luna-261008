@@ -1,0 +1,16 @@
+{
+  "name": "compliance-audit-archive",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Compliance audit archive library: online records in SQLite, history archived to local gzip segments",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "npm run typecheck && node --disable-warning=ExperimentalWarning --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
