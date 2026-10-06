@@ -1,0 +1,20 @@
+{
+  "name": "audit-rework-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "审计项目返工与复核模块（TypeScript 库，SQLite 持久化）",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
