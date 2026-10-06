@@ -1,0 +1,16 @@
+{
+  "name": "refund-approval",
+  "version": "1.0.0",
+  "private": true,
+  "description": "退款审批库：顺序链多级审批，支持加签、退回、幂等重试与本地持久化",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
