@@ -1,0 +1,19 @@
+{
+  "name": "task26100826-a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/engine.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.9"
+  }
+}
