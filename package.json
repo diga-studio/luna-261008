@@ -1,0 +1,16 @@
+{
+  "name": "workshop-rescheduler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "In-memory job-shop schedule adjustment library",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^24.0.0"
+  }
+}
