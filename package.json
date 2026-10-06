@@ -1,0 +1,14 @@
+{
+  "name": "component-checkout-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-process component checkout and atomic save library",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}
