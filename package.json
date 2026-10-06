@@ -1,0 +1,17 @@
+{
+  "name": "sqlite-message-relay",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Persistent guest-to-agent message delivery library (TypeScript + SQLite)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}
