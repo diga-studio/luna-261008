@@ -1,0 +1,22 @@
+{
+  "name": "community-moderation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Community content moderation library: Markdown-aware sensitive-word matching with precise source positions",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.test.json && vitest run"
+  },
+  "dependencies": {
+    "entities": "^4.5.0",
+    "mdast-util-from-markdown": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "https://cdn.npmmirror.com/packages/%40types/node/26.6.4/node-26.6.4.tgz",
+    "typescript": "^5.6.0",
+    "vitest": "2.1.9"
+  }
+}
