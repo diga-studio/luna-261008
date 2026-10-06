@@ -1,0 +1,19 @@
+{
+  "name": "forensic-timeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local forensic timeline library with SQLite persistence",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
