@@ -1,0 +1,16 @@
+{
+  "name": "backup-integrity-repair",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backup integrity verification and single-block repair library with crash recovery",
+  "type": "module",
+  "main": "build/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"build/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": ">=5.5.0",
+    "@types/node": ">=22.0.0"
+  }
+}
