@@ -1,0 +1,15 @@
+{
+  "name": "download-alert-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Detect employees downloading more than 50 distinct files within any 600-second window",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0"
+  }
+}
