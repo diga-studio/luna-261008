@@ -1,0 +1,23 @@
+{
+  "name": "tiered-archive-store",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Tiered archive storage library (Hot/Warm/Cold) backed by local directories and SQLite",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
