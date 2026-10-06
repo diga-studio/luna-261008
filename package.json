@@ -1,0 +1,18 @@
+{
+  "name": "doc-workflow-runner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "In-memory document workflow runtime with conditional branching, joins, review tasks and retries",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "clean": "node -e \"fs.rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
