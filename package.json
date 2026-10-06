@@ -1,0 +1,15 @@
+{
+  "name": "driving-school-locator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Immutable-snapshot nearest-neighbor search over multi-branch driving schools",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
