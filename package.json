@@ -1,0 +1,15 @@
+{
+  "name": "shelfsync",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ShelfSync interlibrary hold module (library, SQLite-backed)",
+  "type": "module",
+  "main": "dist/src/shelfsync.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --disable-warning=ExperimentalWarning --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}
