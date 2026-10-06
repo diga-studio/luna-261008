@@ -1,0 +1,17 @@
+{
+  "name": "survey-rescorer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^24.0.0"
+  },
+  "engines": {
+    "node": ">=22.5"
+  }
+}
