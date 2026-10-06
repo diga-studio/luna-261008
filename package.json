@@ -1,0 +1,16 @@
+{
+  "name": "pipeline-stage-report",
+  "version": "0.1.0",
+  "description": "Talent pipeline stage dwell-time reporting library (in-memory)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.3",
+    "typescript": "^5.9.3"
+  }
+}
