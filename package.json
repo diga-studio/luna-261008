@@ -1,0 +1,16 @@
+{
+  "name": "ntfs-deleted-recovery",
+  "version": "0.1.0",
+  "description": "NTFS deleted-file recovery library for raw/dd images",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node dist/test/run.js"
+  },
+  "devDependencies": {
+    "typescript": ">=4.6.0 <6",
+    "@types/node": ">=17"
+  }
+}
