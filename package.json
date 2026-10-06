@@ -1,0 +1,16 @@
+{
+  "name": "process-execution",
+  "version": "0.1.0",
+  "private": true,
+  "description": "In-memory shop-floor operation execution library",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/*.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.5.0"
+  }
+}
