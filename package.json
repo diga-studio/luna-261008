@@ -1,0 +1,21 @@
+{
+  "name": "flowforge-sync",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FlowForge 增量同步组件：高水位分批同步，崩溃可恢复，恰好一次入账",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:test": "tsc -p tsconfig.test.json",
+    "test": "npm run build && npm run build:test && node --test \"dist-test/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}
