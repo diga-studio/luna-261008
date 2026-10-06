@@ -1,0 +1,18 @@
+{
+  "name": "audience-nexus",
+  "version": "1.0.0",
+  "description": "In-process audience segmentation engine with exact counts and intersections",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "files": [
+    "dist/src"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
