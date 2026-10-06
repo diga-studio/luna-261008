@@ -1,0 +1,17 @@
+{
+  "name": "flow-sim",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Resource-constrained process simulation library with deterministic replay and scenario comparison",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig.test.json",
+    "test": "npm run build && node --test dist-test/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
