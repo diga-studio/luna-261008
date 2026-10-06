@@ -1,0 +1,17 @@
+{
+  "name": "rtos-sched-sim",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Single-core RTOS task scheduling simulation library (preemptive fixed-priority)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^5.9.3"
+  }
+}
