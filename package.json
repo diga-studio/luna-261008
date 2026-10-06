@@ -1,0 +1,16 @@
+{
+  "name": "zonefile",
+  "version": "0.1.0",
+  "description": "DNS zone file import and canonical export for registrar DNS management",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  },
+  "types": "dist/index.d.ts"
+}
