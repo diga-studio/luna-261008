@@ -1,0 +1,17 @@
+{
+  "name": "vaultterm",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local encrypted terminal audit log recording raw keystroke bytes",
+  "type": "commonjs",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "test": "npm run build && node --test dist/test/vaultterm.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^20.0.0"
+  }
+}
