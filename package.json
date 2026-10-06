@@ -1,0 +1,17 @@
+{
+  "name": "live-channel-admission",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Live channel audience admission library (seats, waitlist, SQLite persistence)",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.4",
+    "typescript": "^5.8.2"
+  },
+  "types": "dist/src/index.d.ts"
+}
