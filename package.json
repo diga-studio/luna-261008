@@ -1,0 +1,23 @@
+{
+  "name": "password-repair-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "In-process password repair challenge module for training platforms",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && tsc -p tsconfig.test.json && node --expose-gc --test \"dist-test/test/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@types/node": "^20.19.0"
+  },
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  }
+}
