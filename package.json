@@ -1,0 +1,16 @@
+{
+  "name": "audit-archive-ledger",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compliance audit archive ledger: online records in SQLite, history archived to local gzip files",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && tsc -p tsconfig.test.json && node --test dist-test/test/*.test.js"
+  },
+  "devDependencies": {
+    "@types/node": "24.12.2",
+    "typescript": "5.5.4"
+  }
+}
