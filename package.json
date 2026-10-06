@@ -1,0 +1,15 @@
+{
+  "name": "talent-pipeline-stage-report",
+  "version": "1.0.0",
+  "description": "In-memory talent pipeline stage-duration reporting library",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
