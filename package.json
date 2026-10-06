@@ -1,0 +1,23 @@
+{
+  "name": "community-content-moderation",
+  "version": "0.1.0",
+  "description": "Markdown-aware community content moderation matcher",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "dependencies": {
+    "remark-parse": "11.0.0",
+    "unified": "11.0.5",
+    "character-entities": "2.0.2"
+  },
+  "devDependencies": {
+    "@types/mdast": "4.0.4",
+    "@types/node": "22.19.19",
+    "typescript": "5.9.3"
+  },
+  "license": "MIT"
+}
