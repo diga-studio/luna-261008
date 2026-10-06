@@ -1,0 +1,16 @@
+{
+  "name": "bom-trial",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-level BOM net requirements trial calculation library",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --expose-gc --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^24.0.0"
+  }
+}
