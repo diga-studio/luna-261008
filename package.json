@@ -1,0 +1,16 @@
+{
+  "name": "dns-message-parser",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Strict DNS message parser for edge protection engines",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/**/*.test.js\""
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^22.0.0"
+  }
+}
