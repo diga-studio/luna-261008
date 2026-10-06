@@ -1,0 +1,18 @@
+{
+  "name": "hot-lead-router",
+  "version": "0.1.0",
+  "description": "In-process Hot lead routing library with skill matching and fair round-robin",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=22.18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  }
+}
