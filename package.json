@@ -1,0 +1,17 @@
+{
+  "name": "onboarding-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "90-day onboarding challenge settlement library (TypeScript + SQLite)",
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"dist/test/*.test.js\""
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "typescript": "^5.5.4"
+  }
+}
