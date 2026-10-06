@@ -1,0 +1,14 @@
+{
+  "name": "perf-scoring-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Incremental performance scoring engine with metric trees, evaluator recusal, and contribution explanation",
+  "main": "dist/engine.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
