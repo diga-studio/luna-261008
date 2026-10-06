@@ -1,0 +1,15 @@
+{
+  "name": "opscentral-scheduler",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OpsCentral schedule expansion library: computes trigger instants only, never executes workflows.",
+  "type": "module",
+  "main": "dist/src/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "tsc -p tsconfig.json && node --test dist/test/*.test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
